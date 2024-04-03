@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        *
+      {
+         font-family: sans-serif;
+      }
+      body
+      {
+         background-color: black;
+         border-style: dashed;
+         border-color: crimson;
+         height: 800px;
+      }
+      header
+      {
+        color: white;
+        text-align: center;
+      }
+      #form
+      {
+        border-color: white;
+        border-style: dotted;
+      }
+        #podstrony1
+      {
+         
+         color: white;
+         background-color: gray;
+         height: 100px;
+         width: 50%;
+         text-align: center;
+         float: left;
+
+      }
+      #podstrony2
+      {
+         
+         color: white;
+         background-color: gray;
+         height: 100px;
+         width: 50%;
+         text-align: center;
+         float: left;
+
+      }
+      a
+      {
+         color: black;
+      }
+      a:hover
+      {
+         color: aqua;
+         height: 50px;
+      }
+      main
+      {
+        
+        height: 70%;
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+      footer
+      {
+         text-align: center;
+         background-color: red;
+         height: 110px;
+      }
+      p
+      {
+        color: bisque;
+      }
+
+    </style>
+    
+    <title>Zamówienie</title>
+</head>
+<body>
+
+    <header>
+        <h1><b>Uzupełnij pola i wyślij zamówienie które rozpatrzymy!</b></h1>
+
+    </header>
+    <section id="podstrony1"><a href="strona glowna.html">Powrót na stronę główną</a></section>
+    <section id="podstrony2"><a href="formularz.html">Zapisz się do newslettera</a></section>
+        
+    
+    
+<br>
+    <main>
+        <form action="">
+        
+        <section id="form">
+            która usługa cię interesuje: <br>
+            <select name="usluga" id="">
+                <option value="x">Stworzenie witryny internetowej</option>
+                <option value="y">Stworzenie aplikacji internetowej</option>
+                <option value="z">Stworzenie zarówno aplikacji jak i witryny</option>
+            </select><br><br>
+            budżet: <input type="number" name="bud" id=""><br> <br>
+        Sposób kontaktu: <br><br> 
+        Telefon:<input type="checkbox" name="" id=""> Wprowadź: <input type="text" name="" id=""><br>
+        E-mail: <input type="checkbox" name="" id="">Wprowadź: <input type="text" name="" id=""> <br>
+        Ile podstron? 
+        <select name="podst" id="">
+            <option value="x">1</option>
+            <option value="y">2</option>
+            <option value="z">3</option>
+            <option value="u">Więcej</option>
+        </select><br><br>
+         <input type="submit" value="wyślij!">
+        </section>
+        
+        </form>
+        <br>
+    </main>
+
+    <footer>
+        <br>
+        <p><i>Kontakt z firmą:<br>Numer telefonu:694-202-137</i></p>
+        <p>Po więcej informacji proszę skierować się na adres e-mail podawany przy wykonaniu telefonu bądź po uzupełnienuiu <a href="formularz.html">formularza</a></p>
+    </footer>
+</body>
+</html>
